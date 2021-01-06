@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.full-body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+section {
+  height: 800px;
+}
+.half-section {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-section img {
+  width: 100%;
+}
+/* start navigation bar*/
+.nav-section {
+  height: 100px;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: #3c3c3c;
+  padding: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+/*end navigation bar*/
+
+/*start name section*/
+#hello-txt {
+  font-size: 80px;
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+}
+p {
+  color: #3e3e3e;
+  max-width: 400px;
+  font-size: 20px;
+  font-family: Roboto;
+  line-height: 24px;
+  font-weight: regular;
+}
+.color-name {
+  font-size: 80px;
+  font-family: "Bebas Neue", cursive;
+  color: rgb(255, 133, 119);
+}
+h1 {
+  font-size: 40px;
+}
+.link-button {
+  display: block;
+  width: 170px;
+  height: 60px;
+  margin-top: 50px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff8063, #ff8063);
+  border-radius: 7px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+#paragraph-txt {
+  font-size: 20px;
+}
+#About {
+  font-size: 50px;
+  line-height: 100px;
+}
+.name-section {
+  margin-top: 50px;
+}
+/*end name section */
+
+/*start about section*/
+.about-section h2 {
+  color: #363958;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 48px;
+}
+.about-section p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3e3e3e;
+}
+.link-button1 {
+  display: block;
+  width: 170px;
+  height: 60px;
+  margin-top: 50px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #ff8063, #ff8063);
+  border-radius: 7px;
+  padding: 10px 30px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+/*end about section*/
+
+/*start working project section*/
+.working-project {
+  background-color: #fffffc;
+}
+.orange-color {
+  color: #f46060;
+  margin-right: 10px;
+}
+.project-heading {
+  color: #363958;
+  text-align: center;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 48px;
+  margin: 70px;
+  padding-top: 50px;
+}
+.project-disc {
+  font-family: Roboto;
+  font-style: regular;
+  font-size: 20px;
+  color: #6c6c6c;
+}
+.project {
+  width: 27%;
+  float: left;
+  margin-left: 45px;
+}
+.project img {
+  width: 100%;
+}
+.single-project {
+  box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  border: 12px solid white;
+  height: 50%;
+  background-color: white;
+}
+.project-name {
+  font-size: 25px;
+}
+/*end working project section*/
+
+/*start work inquiry section*/
+.work-inquiry {
+  height: 400px;
+}
+.inquiry-box {
+  position: relative;
+}
+.inquiry-box img {
+  height: 200px;
+  width: 1000px;
+  margin-left: 70px;
+}
+.text-block1 {
+  position: absolute;
+  bottom: 80px;
+  left: 180px;
+  color: white;
+  font-size: 40px;
+}
+.text-block2 {
+  position: absolute;
+  bottom: 60px;
+  left: 780px;
+  color: white;
+  font-size: 20px;
+}
+/*end work inquiry section*/
+
+/*start contact form section*/
+.mail-section {
+  height: 550px;
+}
+#contact-us {
+  margin-left: 40%;
+  color: #363958;
+  font-size: 40px;
+}
+form {
+  margin: 0 auto;
+  width: 40%;
+}
+input,
+textarea {
+  width: 439px;
+  height: 27px;
+  background: #efefef;
+  border: 1px solid #dedede;
+  padding: 10px;
+  margin-top: 3px;
+  font-size: 20px;
+  color: #525252;
+}
+textarea {
+  height: 250px;
+}
+#submit {
+  font-size: 15px;
+  height: 30%;
+  width: 76%;
+  font-weight: bold;
+}
+/* end contact form section */
+
+/* start footer section */
+#text-section {
+  text-align: center;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 300%;
+  color: #696871;
+  margin: auto;
+}
+#mail-address {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: bold;
+  margin: auto;
+  font-size: 40px;
+  line-height: 30px;
+  color: #363958;
+}
+.icn {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+.icn img {
+  padding: 20px;
+}
